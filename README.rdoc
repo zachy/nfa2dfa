@@ -36,7 +36,15 @@ The same but with a block
 
 == INSTALLATION
 
-  sudo gem install nfa2dfa
+1.  Create your Gemfile
+
+  source 'https://rubygems.org'
+  gem 'ruby-graphviz'
+  gem "nfa2dfa", "~> 1.0.2"
+  
+2.  install necessary gems
+
+  bundle install
 
 This gem uses gem Ruby-Graphviz[https://github.com/glejeune/Ruby-Graphviz].
 
