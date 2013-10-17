@@ -8,7 +8,7 @@ Finite automaton determinizer as semestral project for MI-RUB on CVUT-FIT[fit.cv
 
 A basic example with reading file from standart input
 
-  require 'graphviz'
+  require 'nfa2dfa'
 
   ARGV.each do |arg|
     input_mat = Nfa2Dfa::Automaton.init(arg)
