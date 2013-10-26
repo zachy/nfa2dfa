@@ -13,4 +13,5 @@ Gem::Specification.new do |s|
   s.test_files	= ["spec/automaton_spec.rb", "spec/state_spec.rb", "spec/transition_spec.rb"]
   s.homepage    = 'http://fit.cvut.cz'
   s.license     = 'GNU GPL'
+  s.requirements << 'ruby-graphviz'
 end
