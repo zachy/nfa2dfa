@@ -7,7 +7,7 @@ program :version, '0.0.1'
 program :description, 'Controller of automaton'
 program :name, 'automaton'
  
-command :create_finite do |c|
+command :create_deterministic do |c|
   c.syntax = 'automaton create_finite [options]'
   c.description = 'Creates determined automaton from file and writes it into "<input_file>.determined"'
   c.action do |args|

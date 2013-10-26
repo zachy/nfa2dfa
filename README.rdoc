@@ -28,7 +28,7 @@ A basic example with reading file from standart input
   
 Command line usage
 
-  automaton create_finite automat_file_path
+  automaton create_deterministic automat_file_path
 
 or
 
