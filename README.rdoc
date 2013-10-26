@@ -45,6 +45,10 @@ Automaton definiton file syntax
 
 == INSTALLATION
 
+  gem install nfa2dfa ruby-graphviz
+
+or
+
 (1)  Create your Gemfile
 
   source 'https://rubygems.org'
