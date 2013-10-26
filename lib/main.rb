@@ -2,7 +2,7 @@
 # and open the template in the editor.
 require 'graphviz'
 #require_relative 'automaton.rb'
-require 'Nfa2Dfa'
+require_relative 'nfa2dfa.rb'
 # struktura souboru
 #z f - mnozina stavu
 #a b - vstupni abeceda

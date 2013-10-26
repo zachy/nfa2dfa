@@ -26,6 +26,15 @@ A basic example with reading file from standart input
     end
   end
   
+Command line usage
+
+  automaton create_finite automat_file_path
+
+or
+
+  automaton automaton_to_png automat_file_path
+
+
 Automaton definiton file syntax
 
   <state1> <state2> ...
