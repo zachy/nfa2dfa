@@ -8,7 +8,7 @@ program :description, 'Controller of automaton'
 program :name, 'nfa2dfa'
  
 command :create_deterministic do |c|
-  c.syntax = 'automaton create_finite [options]'
+  c.syntax = 'nfa2dfa create_finite [options]'
   c.description = 'Creates determined automaton from file and writes it into "<input_file>.determined"'
   c.action do |args|
     args.each do |arg|
@@ -21,7 +21,7 @@ command :create_deterministic do |c|
 end
 
 command :automaton_to_png do |c|
-  c.syntax = 'automaton automaton_to_png [options]'
+  c.syntax = 'nfa2dfa automaton_to_png [options]'
   c.description = 'Creates png representation of automaton from input'
   c.action do |args|
     args.each do |arg|
