@@ -28,11 +28,11 @@ A basic example with reading file from standart input
   
 Command line usage
 
-  automaton create_deterministic automat_file_path
+  nfa2dfa create_deterministic automat_file_path
 
 or
 
-  automaton automaton_to_png automat_file_path
+  nfa2dfa automaton_to_png automat_file_path
 
 
 Automaton definiton file syntax
@@ -45,7 +45,7 @@ Automaton definiton file syntax
 
 == INSTALLATION
 
-  gem install nfa2dfa ruby-graphviz
+  gem install nfa2dfa
 
 or
 
