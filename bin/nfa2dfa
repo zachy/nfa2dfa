@@ -1,12 +1,11 @@
 #!/usr/bin/env ruby
-
 require 'rubygems'
 require 'commander/import'
 require 'nfa2dfa'
 program :version, '0.0.1'
 program :description, 'Controller of automaton'
 program :name, 'nfa2dfa'
- 
+
 command :create_deterministic do |c|
   c.syntax = 'nfa2dfa create_finite [options]'
   c.description = 'Creates determined automaton from file and writes it into "<input_file>.determined"'
@@ -15,7 +14,7 @@ command :create_deterministic do |c|
       input_mat = Nfa2Dfa::Automaton.init(arg)
       output_mat = input_mat.determine
       data = output_mat.to_str
-      File.open(arg + ".determined", 'w') { |file| file.write(data) }
+      File.open(arg + '.determined', 'w') { |file| file.write(data) }
     end
   end
 end
@@ -26,8 +25,7 @@ command :automaton_to_png do |c|
   c.action do |args|
     args.each do |arg|
       input_mat = Nfa2Dfa::Automaton.init(arg)
-      data = input_mat.to_graph(arg + ".png")
+      data = input_mat.to_graph(arg + '.png')
     end
   end
 end
-

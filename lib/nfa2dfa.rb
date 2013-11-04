@@ -1,3 +1,4 @@
+# Nfa2Dfa package
 module Nfa2Dfa
   require_relative 'automaton'
   require_relative 'state'
